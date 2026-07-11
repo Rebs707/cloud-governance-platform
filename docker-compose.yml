@@ -1,0 +1,8 @@
+services:
+
+  cloud-governance-platform:
+    build: .
+    container_name: cloud-governance-platform
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
